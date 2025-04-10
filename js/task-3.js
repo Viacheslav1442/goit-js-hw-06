@@ -22,7 +22,6 @@ class StringBuilder {
     }
 }
 
-// Перевірка — залиш цей код для перевірки ментором:
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
